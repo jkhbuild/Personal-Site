@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #fff;
+					/* border-top: solid 2px #fff; */
 					display: block;
 					padding: 0;
 				}
@@ -3267,7 +3267,7 @@ input, select, textarea {
 
 		/* List */
 
-			ul.actions {
+			/* ul.actions {
 				margin: 0 0 2.25em 0;
 			}
 
@@ -3302,7 +3302,7 @@ input, select, textarea {
 			ul.feature-icons li {
 				display: block;
 				width: 100%;
-			}
+			} */
 
 		/* Button */
 
@@ -3313,4 +3313,24 @@ input, select, textarea {
 				padding: 0;
 			}
 
+	}
+
+	/* .technology-header {
+		margin-bottom: -3rem;
+	} */
+
+	.technologies-icons {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.technologies-section {
+		width: 25%;
+		margin-top: 4rem;
+	}
+	
+
+	.technologies-section span i {
+		font-size: 5rem;
 	}
