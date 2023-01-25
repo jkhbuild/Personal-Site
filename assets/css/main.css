@@ -2724,7 +2724,7 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #0B2545;
+			color: #ffffff;
 		}
 
 			#header a:hover {
@@ -2772,7 +2772,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #0B2545;
+					color: #ffffff;
 				}
 
 		#header > nav {
@@ -3333,4 +3333,8 @@ input, select, textarea {
 
 	.technologies-section span i {
 		font-size: 5rem;
+	}
+	
+	.contact-section {
+		margin-bottom: 1rem;
 	}
